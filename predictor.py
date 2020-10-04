@@ -91,5 +91,6 @@ if __name__=="__main__":
 
     # predicting the class as labels
     y_hat = model.predict(X)
+    
     print(y_hat)
 
