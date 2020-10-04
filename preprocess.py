@@ -3,7 +3,7 @@ import librosa
 import math
 import json
 
-DATASET_PATH = "./archive"
+DATASET_PATH = "../archive"
 JSON_PATH = "./data.json"
 
 SAMPLE_RATE = 22050

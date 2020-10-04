@@ -26,7 +26,7 @@ if __name__ == "__main__":
     X, y = load_data(DATA_PATH)
 
     # create train/test split
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3)
+    X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=42,test_size=0.3)
 
     # build network topology
     model = keras.Sequential([
@@ -44,7 +44,7 @@ if __name__ == "__main__":
         keras.layers.Dense(64, activation='relu'),
 
         # output layer
-        keras.layers.Dense(10, activation='softmax')
+        keras.layers.Dense(3, activation='softmax')
     ])
 
     # compile model
@@ -57,3 +57,5 @@ if __name__ == "__main__":
 
     # train model
     history = model.fit(X_train, y_train, validation_data=(X_test, y_test), batch_size=32, epochs=50)
+
+    model.save('my_model')
