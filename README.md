@@ -12,7 +12,12 @@ maximum response value is selected as identified
 result. 
 
 
-![alt text](media/structure.png)
+
+  ![alt text](media/structure.png)
+
+
+
+---
 
 ## Signal Processing Picture
 
@@ -35,6 +40,8 @@ work as well. For every 3s of a sound signal, 5 segments each and ultimately 13-
 ## Artificial Neural Network Picture
 
 A dense neural network implementation is done using Keras. 'Relu' activation along with a 30% dropout in hidden layers makes the model prevent overfitting. 'Softmax' activation is used in the final three-way classifier output layer. 'Adam' Optimizer helps in learning the data (MFCC vectors) by tuning weights of the hidden layers.
+
+---
 
 ## Packages used
 
