@@ -12,7 +12,7 @@ maximum response value is selected as identified
 result. 
 
 
-![alt text](media/structre.png)
+![alt text](media/structure.png)
 
 ## Signal Processing Picture
 
