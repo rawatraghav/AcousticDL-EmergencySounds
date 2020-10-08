@@ -44,7 +44,7 @@ if __name__ == "__main__":
         keras.layers.Dense(64, activation='relu'),
 
         # output layer
-        keras.layers.Dense(3, activation='softmax')
+        keras.layers.Dense(4, activation='softmax')
     ])
 
     # compile model

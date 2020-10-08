@@ -92,5 +92,7 @@ if __name__=="__main__":
     # predicting the class as labels
     y_hat = model.predict(X)
     
+    # for i in range(len(y_hat)):
+        # y_hat[i] = np.round(y_hat[i])
+        
     print(y_hat)
-
