@@ -1,3 +1,5 @@
+## NOTE: This repository hasn't been updated since October 2020 due to confidentiality of associated institutions.
+
 # AcousticDL-EmergencySounds
 
 The implementation of a typical neural network for
